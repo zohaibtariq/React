@@ -40,7 +40,6 @@ class App extends React.Component {
                     {((!this.state.errorMessage && this.state.latitude)?<Season errorMessage={this.state.errorMessage} latitude={this.state.latitude}/>:'')}
                     {((!this.state.errorMessage && !this.state.latitude)?<p><b>Loading... </b></p>:'')}
                 </div>
-                <Season errorMessage={this.state.errorMessage} latitude={this.state.latitude}/>
                 <div id="comment-project" className="comments">
                     <ApproveReject>
                         <div>
