@@ -1,4 +1,4 @@
-#season-project{
+.season-fullwidth{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,16 +6,16 @@
     position: relative;
     width: 100%;
 }
-#season-project .display-season.winter{
+#season-app.display-season.winter{
     background: aliceblue;
 }
-#season-project .display-season.summer{
+#season-app.display-season.summer{
     background: orange;
 }
-#season-project .display-season.winter i{
+#season-app.display-season.winter i{
     color: blue;
 }
-#season-project .display-season.summer i{
+#season-app.display-season.summer i{
     color: red;
 }
 #season-project i.icon-top-left{
@@ -31,4 +31,11 @@
     position: absolute;
     bottom: 10px;
     right: 10px;
+}
+h1.project-heading{
+    text-align: center;
+    border-bottom: 2px groove #c0c1c2;
+}
+.hide{
+    display: none;
 }

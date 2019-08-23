@@ -1,7 +1,7 @@
 import React from 'react';
 const ApproveReject = (props) => {
     return (
-        <div className="ui card">
+        <div className="ui card comment">
             <div className="content">{props.children}</div>
             <div className="extra content">
                 <div className="ui two buttons">

@@ -3,7 +3,7 @@ const Season = (props) => {
     const season = getSeason(props.latitude, new Date().getMonth());
     const {text, iconName} = seasonConfig[season];
     return (
-        <div id="season-project" className={`display-season ${season}`}>
+        <div id="season-app" className={`season-fullwidth display-season ${season}`}>
             <i className={`icon-top-left massive ${iconName} icon`}></i>
             <h1>{text}</h1>
             <i className={`icon-bottom-right massive ${iconName} icon`}></i>
